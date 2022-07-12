@@ -2,15 +2,12 @@ body {
     margin: 0%;
 }
 
-nav {
-    background-color: black;
-    height: 100vh;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
     color: white;
+
+    background-color: black;
 
 }
 
@@ -51,6 +48,10 @@ nav {
     align-items: center;
     justify-content: center;
     padding-left: 50px;
+    background-color: black;
+    height: 100vh;
+
+
 }
 
 .navimg div h1 {
@@ -84,8 +85,7 @@ nav {
 
 .navimg img {
     width: 40%;
-}
 
-.navimg div {
-    padding-top: 150px;
+    padding-right: 20px;
+    padding-bottom: 150px;
 }
