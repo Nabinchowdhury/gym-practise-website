@@ -11,31 +11,35 @@ nav {
     display: flex;
     justify-content: space-between;
     color: white;
+
 }
 
-.navbar>h1 {
+.navbar h1 {
     font-size: 60px;
     margin: 0%;
+    font-style: italic;
+
 }
 
-.navbar>div {
+.navbar div {
     list-style: none;
     margin-right: 150px;
     padding: 0%;
 }
 
-.navbar>div>ul {
+.navbar div ul {
     display: flex;
     justify-content: center;
 }
 
-.navbar>div>ul>li {
+.navbar div ul li {
     list-style: none;
     font-size: 18px;
     padding: 0px 10px;
+    margin: 5px;
 }
 
-.navbar>div>ul>li:hover {
+.navbar div ul li:hover {
     color: red;
     cursor: pointer;
 }
@@ -49,19 +53,19 @@ nav {
     padding-left: 50px;
 }
 
-.navimg>div>h1 {
+.navimg div h1 {
     font-size: 70px;
 
     margin: 0%;
 }
 
-.navimg>div>h3 {
+.navimg div h3 {
     font-size: 25px;
 
     margin: 0%
 }
 
-.navimg>div>h3>span {
+.navimg div h3 span {
     color: red;
 }
 
@@ -78,10 +82,10 @@ nav {
     background-color: blue;
 }
 
-.navimg>img {
+.navimg img {
     width: 40%;
 }
 
-.navimg>div {
+.navimg div {
     padding-top: 150px;
 }
