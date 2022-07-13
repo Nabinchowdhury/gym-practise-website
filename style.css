@@ -136,8 +136,96 @@ body {
 .minibox button {
     border: none;
     font-size: 15px;
+    background-color: white;
 }
 
 .minibox button:hover {
     cursor: pointer;
+}
+
+.three {
+    background-color: rgb(18, 14, 14);
+    color: white;
+}
+
+.threeh1 {
+    text-align: center;
+    font-size: 50px;
+
+    margin: 0%;
+}
+
+.combined {
+    display: flex;
+
+
+}
+
+.img {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 120px;
+
+    padding: 0%;
+
+}
+
+.img img {
+
+    width: 250px;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    transform: skewY(-15deg);
+
+}
+
+.blog {
+    margin-top: 0%;
+    margin-right: 100px;
+    margin-left: 50px;
+
+
+
+}
+
+.blog h1 {
+    font-size: 45px;
+    margin-top: 0%;
+    margin-left: 40px;
+
+}
+
+.blog p {
+    font-size: 25px;
+    margin: 0% 40px;
+}
+
+.blog div {
+    margin-top: 40px;
+}
+
+.blog div li {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.hr1 {
+    border: none;
+    border-top: 2px solid red;
+    width: 500px;
+    margin-left: 150px;
+
+}
+
+.hr2 {
+    border: none;
+    border-top: 2px solid grey;
+    width: 620px;
+    margin-left: 40px;
+}
+
+#b2 {
+    margin-left: 40px;
 }
