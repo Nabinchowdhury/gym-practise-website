@@ -89,3 +89,55 @@ body {
     padding-right: 20px;
     padding-bottom: 150px;
 }
+
+.two {
+    margin: 30px;
+}
+
+.two h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.minibox {
+    margin: 40px 80px;
+    border: 1px solid grey;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px gray;
+    padding: 20px 30px;
+
+}
+
+.minibox:hover {
+    margin-top: 10px;
+    transition: 800ms;
+    border: 1px solid red;
+}
+
+
+
+.minibox p {
+    text-align: justify;
+}
+
+.minibox img {
+    width: 30%;
+
+
+}
+
+.minibox button {
+    border: none;
+    font-size: 15px;
+}
+
+.minibox button:hover {
+    cursor: pointer;
+}
