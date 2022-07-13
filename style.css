@@ -229,3 +229,32 @@ body {
 #b2 {
     margin-left: 40px;
 }
+
+.inquiry-container {
+    margin: 50px;
+    color: white;
+
+}
+
+.inquiry {
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0% auto;
+    background: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    border-radius: 5%;
+}
+
+#b3 {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+#b3:hover {
+    background-color: blue;
+}
