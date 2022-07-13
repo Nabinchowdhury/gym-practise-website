@@ -231,7 +231,7 @@ body {
 }
 
 .inquiry-container {
-    margin: 50px;
+    margin: 80px;
     color: white;
 
 }
@@ -257,4 +257,90 @@ body {
 
 #b3:hover {
     background-color: blue;
+}
+
+
+.four h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.secserv p {
+    color: red;
+    font-size: 20px;
+}
+
+.secserv h3 {
+    font-size: 25px;
+}
+
+.service {
+    width: 350px;
+    height: 465px;
+    box-shadow: 5px 5px 15px black;
+    margin-right: 50px;
+    margin-bottom: 200px;
+    margin-top: 20px;
+    border-radius: 5%;
+
+
+}
+
+.service img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5%;
+
+}
+
+
+
+.sbox h3,
+p {
+    margin: 5px 15px;
+}
+
+.join {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.secserv {
+    display: flex;
+    justify-content: center;
+
+}
+
+.serhr {
+    border: none;
+    border-top: 1px solid grey;
+    width: 85%;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    margin: 50px;
+}
+
+.fbyt {
+    margin: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+
+.fbyt:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#me {
+    color: red;
+    margin: 0px;
+    font-weight: 100;
+
 }
