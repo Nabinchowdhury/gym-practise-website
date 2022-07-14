@@ -253,6 +253,7 @@ body {
     background-color: white;
     color: black;
     border: none;
+
 }
 
 #b3:hover {
@@ -275,11 +276,12 @@ body {
 }
 
 .service {
-    width: 350px;
-    height: 465px;
-    box-shadow: 5px 5px 15px black;
+    width: 325px;
+    height: 450px;
+    box-shadow: 10px 10px 20px black;
     margin-right: 50px;
     margin-bottom: 200px;
+    margin-left: 40px;
     margin-top: 20px;
     border-radius: 5%;
 
@@ -343,4 +345,16 @@ footer {
     margin: 0px;
     font-weight: 100;
 
+}
+
+.service {
+    position: relative;
+}
+
+#batch {
+    width: 75px;
+    height: 95px;
+    position: absolute;
+    top: -30px;
+    left: 270px;
 }
